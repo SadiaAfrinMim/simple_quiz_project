@@ -2,8 +2,8 @@
 #cross{
     position: absolute;
    left: 60%;
-   top: 5%;
-    font-size: 30px;
+   top: 8%;
+   
     height: 40px;
     width: 40px;
     background-color: tomato;
@@ -13,26 +13,54 @@
     border-radius: 8px;
     text-align: center;
 }
+#cross i{
+    font-size: 40px;
+    font-weight: 800;
+    /* transform: translate(-50%,-50%); */
+
+}
+
 #form{
-    width: 20%;
+    max-width: 300px;
     margin: 0 auto;
     box-shadow: 4px 4px 10px gray;
     padding: 50px;
     border-radius: 18px;
     background-image: linear-gradient(rgba(0, 128, 0, 0.308),rgba(255, 255, 0, 0.302));
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
     
 }
 #submit{
-    padding: .3rem 1.5rem;
+    padding: .6rem 3rem;
     border: none;
     background: green;
     border-radius: 8px;
     color: white;
     margin: 20px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 500;
    
     
+    
+}
+@media screen and(min-width: 320px) and(max-width: 576px) {
+    body{
+        width: 100%;
+        position: relative;
+    }
+    #form{
+        width: 100%;
+    }
+    #cross{
+        text-align: right;
+    }
+    #cross{
+       width: 100%;
+       
+    }
+   
+   
+        
     
 }
