@@ -1,0 +1,38 @@
+
+#cross{
+    position: absolute;
+   left: 60%;
+   top: 5%;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: tomato;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 800;
+    border-radius: 8px;
+    text-align: center;
+}
+#form{
+    width: 20%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 10px gray;
+    padding: 50px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.308),rgba(255, 255, 0, 0.302));
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#submit{
+    padding: .3rem 1.5rem;
+    border: none;
+    background: green;
+    border-radius: 8px;
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+   
+    
+    
+}
